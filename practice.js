@@ -2,13 +2,13 @@
 
 //Create a variable called myName that is a string data type
 
-let myName ="Tristan";
+let myName = "Tristan"
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-let myAge = 24;
+let myAge = 24
 
 //////////////////PROBLEM 3////////////////////
 
@@ -52,7 +52,6 @@ return "Hello, " + name;
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
-
 let groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
@@ -79,14 +78,14 @@ let devMountainClassPet = 'Cooper';
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
-function nameCheck(name){
-  if (name === "Steven"){
-    return "What is up Steven?"
-  }
-  else if (name === "Bryan"){
+function nameCheck(name) {
+  if (name === "Steven") {
+    return "What is up Steven?"; 
+  } else if (name === "Bryan") {
     return "Hey Bryan!"
-  } else {
-    return `Cool name, ${name}`
+  }
+  else {
+    return "Cool name, " + name
   }
 }
 
